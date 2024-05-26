@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgrey;
+  font-weight: 500;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 40%;
+  margin: 0 auto;
+}
+.main .main_para1, .main .main_para2 {
+  font-weight: 400;
+}
+.main .main_para1:hover, .main .main_para2:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+.main .main_para2:hover {
+  color: orangered;
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+.light {
+  background: white;
+  color: black;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,72 @@
+body{
+    background-color: grey;
+}
+.loginpage{
+    width: 80%;
+    height: 100%;
+    margin: 15% 30% 15% 25%;
+    place-content: center;
+    margin-bottom: 20px;
+}
+img{
+    width: 20%;
+    height: 10%;
+    color: white;
+}
+#logo{
+    color: white;
+    font-size: 18px;
+    padding-left: 8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.left{
+    background-color: brown;
+    float: left;
+    height: 300px;
+    padding: 20px;
+    width: 20%;
+}
+.right{
+    background-color: white;
+    width: 30%;
+    float: left;
+    height: 300px;
+    padding: 20px;
+}
+.button{
+    background-color: red;
+    border: none;
+    padding: 5px;
+}
+
+.forgotpwd{
+    color: brown;
+}
+.logintext{
+    color: brown;
+}
+
+#facebook{
+    background-color: blue;
+    padding: 5px;
+    font-size: 15px;
+}
+#google{
+    background-color: orangered;
+    padding: 5px;
+    font-size: 15px;
+}
+#twitter{
+    background-color:lightskyblue;
+    padding: 5px;
+    font-size: 15px;
+}
+#remember{
+    margin: 5%;
+}
+
+a{
+    
+    text-decoration: none;
+}
+

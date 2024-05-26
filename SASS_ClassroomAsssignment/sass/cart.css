@@ -1,0 +1,13 @@
+.cartItems {
+  align-items: center;
+  margin: 0;
+}
+
+.table_btn {
+  border: 2px solid red;
+}
+
+#btn {
+  border: 1px solid red;
+  padding: 0.3rem;
+}/*# sourceMappingURL=cart.css.map */

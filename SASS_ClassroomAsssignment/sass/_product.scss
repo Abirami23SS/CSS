@@ -1,0 +1,54 @@
+.table {
+    // width: 40rem;
+    height: 10vh;
+    border: 2px solid red;
+}
+
+.add {
+    // background: $accent-color;
+    padding: 0.7rem 1.7rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+    &_btn{
+        @extend .add;
+        background-color: orangered;
+        margin-left: 1vh;
+    }
+    
+}
+
+.edit {
+    background: blue;
+    padding: 0.7rem 1.3rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 1rem 2rem;
+}
+
+.delete {
+    background: red;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    // margin: 1rem 2rem;
+}
+
+.content_2 { 
+    background: $seconday-color;
+    height: 55vh;
+    width: 20rem;
+    float: right;
+    margin-top: 30vh;
+    margin-right: 20vh;
+    border: none;
+    border-radius: 5px;
+}
+.form{
+    padding: 3vh;
+   border: 2px solid red;
+}

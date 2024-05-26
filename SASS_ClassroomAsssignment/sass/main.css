@@ -1,0 +1,237 @@
+.home {
+  text-align: center;
+  align-items: center;
+  padding-top: 20vh;
+  font-size: 1rem;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.image_img1 {
+  padding: 2rem;
+  margin: 2vh;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: 0px 0px 10px black;
+  margin-left: 30vh;
+}
+.image_img2 {
+  padding: 2rem;
+  margin: 2vh;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: 0px 0px 10px black;
+  margin-right: 30vh;
+}
+.image .textarea {
+  width: 100%;
+  height: 2vh;
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 1vh;
+}
+
+.table {
+  height: 10vh;
+  border: 2px solid red;
+}
+
+.add, .add_btn {
+  padding: 0.7rem 1.7rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.add_btn {
+  background-color: orangered;
+  margin-left: 1vh;
+}
+
+.edit {
+  background: blue;
+  padding: 0.7rem 1.3rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 1rem 2rem;
+}
+
+.delete {
+  background: red;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.content_2 {
+  background: white;
+  height: 55vh;
+  width: 20rem;
+  float: right;
+  margin-top: 30vh;
+  margin-right: 20vh;
+  border: none;
+  border-radius: 5px;
+}
+
+.form {
+  padding: 3vh;
+  border: 2px solid red;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  width: 50px;
+}
+.image_img1 {
+  padding: 2rem;
+  margin: 2vh;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: 0px 0px 10px black;
+  margin-left: 30vh;
+  border: 1px solid red;
+}
+.image_img2 {
+  padding: 2rem;
+  margin: 2vh;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: 0px 0px 10px black;
+  margin-right: 30vh;
+  border: 1px solid red;
+}
+.image .buynow {
+  padding: 0.7rem 1.7rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid red;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+.image .addcart {
+  padding: 0.7rem 1.7rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  border: 1px solid red;
+}
+
+.cartItems {
+  align-items: center;
+  margin: 0;
+}
+
+.table_btn {
+  border: 2px solid red;
+}
+
+#btn {
+  border: 1px solid red;
+  padding: 0.3rem;
+}
+
+.balance {
+  text-align: center;
+}
+
+.rechargeForm {
+  margin-left: 30rem;
+  text-align: left;
+  margin-right: 30em;
+  margin-top: 2rem;
+  background-color: white;
+  border: 2px solid orangered;
+}
+
+.btn1 {
+  padding: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.contactForm {
+  margin-left: 30rem;
+  margin-right: 30rem;
+  border: 2px solid orangered;
+  background-color: white;
+}
+
+body {
+  background: lightgrey;
+  color: set-text-color(lightgrey);
+  height: 90vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+body a {
+  text-decoration: none;
+}
+
+.head {
+  top: 1rem;
+  background: white;
+  width: 100%;
+  height: 4vh;
+  margin-top: -2vh;
+  text-align: center;
+}
+
+.menu-nav {
+  display: block;
+  height: 10vh;
+  background: transparent;
+  text-align: right;
+  margin-top: 5vh;
+  background-color: white;
+}
+.menu-nav__item {
+  display: inline;
+  padding-right: 2rem;
+}
+.menu-nav__link {
+  font-size: 1.5rem;
+}
+.menu-nav__link:hover {
+  color: black;
+}
+.menu-nav .button {
+  background: orangered;
+  padding: 0.7rem 1.7rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#body {
+  margin-top: -140px;
+}
+
+footer {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0.4rem;
+  text-align: center;
+  padding: 1rem;
+  color: set-text-color(lightgrey);
+}
+
+.light {
+  background: white;
+  color: black;
+}/*# sourceMappingURL=main.css.map */

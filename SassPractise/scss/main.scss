@@ -1,0 +1,65 @@
+@import './reset'; 
+@import './variables';
+    
+@function weight($weight-name){
+    @return map-get($font-weights, $weight-name)
+};
+
+//for flex direction 
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin theme($light-theme: true){
+     @if $light-theme{
+        background: lighten($primary-color,100%);
+        color: darken($text-color,100%);
+     }
+}
+
+@mixin mobile{
+    @media (max-width: $mobile){
+        @content;
+    }
+}
+
+body{
+    background-color: $primary-color;
+    font-weight: map-get($font-weights, medium);
+    // font-weight: map-keys($font-weights);   
+}
+
+.main{
+    @include flexCenter(row); //we can change column or row 
+    width: calc(80% - 40%);  //operations
+    margin: 0 auto;
+
+    // &--> directs the first class i.e, main so we can put & symbol
+    #{&}_para1 {
+        font-weight: weight(regular);
+       
+        &:hover{
+            color: lightgray;
+            cursor: pointer;
+        }
+    }
+    
+    //& -- same as class one that is half name
+    #{&}_para2{
+        @extend .main_para1;
+        &:hover{
+            color: orangered;
+        }
+    }
+    
+    @include mobile{
+        flex-direction: column;
+    }
+}
+
+.light{
+    @include theme(true); // if we give false it changes to back to color that we set.
+}

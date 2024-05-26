@@ -1,0 +1,118 @@
+body{
+    background-color: white;
+    padding: 20px 20px;
+    height: 90vh;
+}
+.page{
+    background: linear-gradient(90deg,#e4e9f4 0%,#5B7596 50%);
+    display: flex;
+    place-content: center;
+    padding: 20%;
+}
+.head{
+    color: #2b347b;
+    display: inline;
+    line-height: 1.5;
+}
+.left{
+    float: left;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    height: 250px;
+    width: 35%;
+    margin-top: 20px;
+}
+.right{
+    width: 40%;
+    float: left;
+    height: 300px;
+    padding: 20px;
+    background-color: #17355e;
+    
+}
+.line1{
+    color: gray;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 14px;
+    margin: 1rem;
+}
+.line2{
+    color: black;
+    text-align: justify;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0.5rem 1rem;
+    
+}
+.author{
+    text-align: center;
+    line-height: 1;
+    font-size: 13px;
+    font-style: normal;
+}
+form{
+    margin: 1rem 3rem;
+    position: absolute;
+}
+#email{
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    border-color:  gray;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+#pwd{
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    border-color:  gray;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.btn{
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 200px;
+  
+}
+#myAnchor{
+    font-size: 14px;
+    background-color: #17355e;
+    color: white;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+#myAnchor:hover{
+    color: white;
+    background-color: lightblue;
+    border-radius: 0.25rem;
+    
+}
+#microsoft{
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+}
+#bottom{
+    background: transparent;
+    border: 1px solid gray;
+    text-align: center;
+}
+img{
+    width: 1.5rem;
+    padding: 0.8px;
+}
+

@@ -1,0 +1,22 @@
+.image {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.image_img1 {
+  padding: 2rem;
+  margin: 2vh;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: 0px 0px 10px black;
+  margin-left: 30vh;
+}
+.image_img2 {
+  padding: 2rem;
+  margin: 2vh;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: 0px 0px 10px black;
+  margin-right: 30vh;
+}/*# sourceMappingURL=purchase.css.map */
